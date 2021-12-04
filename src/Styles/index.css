@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+.navbar {
+    background-color: #fff !important;
+}
+.navbar a {
+    font-size: 1.2em;
+    text-transform: capitalize;
+}
+.navbar-brand {
+    font-size: 1.5rem !important;
+    color:blue !important;
+}
+.navbar a:hover {
+    color: rgba(44, 41, 248, 0.548) !important;
+}
+.selected {
+    font-weight: bold !important;
+    border-bottom: 1px solid blue !important;
+}
+@media (min-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2em !important;
+    }
+}
+
+.btn {
+    border: 1px solid rgb(23, 21, 163) !important;
+}
+.btn:hover {
+    background-color: rgb(86, 105, 211) !important;
+    color: white !important;
+}
+.brand-name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+}
+h4 {
+    text-align: justify;
+}
